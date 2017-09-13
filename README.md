@@ -22,3 +22,7 @@ $cs = new CustomSearch();
 //Perform a simple search 
 $response = $cs->simpleSearch( 'whole foods' ); 
 ```
+
+## Instructions
+
+Open the ** CustomSearch.php ** file and replace ** searchEngineId **, ** GoogleApiKey ** and ** YourIP ** address variables with your owns and yeah you are good to go that's it.
