@@ -8,7 +8,22 @@ Finding if you are ranking with the right keywords is very difficult. You need t
 
 Fortunately there is an official API from Google that lets you search for certain keywords and you can use it from PHP or any other language.
 
-# Simple Example
+## Description
+
+This class can search for keywords using Google Custom Search API.
+
+It can send HTTP requests to the Google Custom Site Search API Web server to search for given keywords. All search API parameters can be configured.
+
+The class returns an object with the decoded search results.
+
+Using this package you can perform a search by passing in the search keywords plus an optional array of advanced search options to API call URL and get a response in JSON or ATOM.
+
+## Instructions
+
+Open the **CustomSearch.php** file and replace **searchEngineId**, **GoogleApiKey** and **YourIP** address variables with your owns and yeah you are good to go that's it.
+
+
+## Simple Example
 
 With this class the work becomes very easy. You do not need to create any search URLs and process any hard JSON responses.
 ```
@@ -22,7 +37,3 @@ $cs = new CustomSearch();
 //Perform a simple search 
 $response = $cs->simpleSearch( 'whole foods' ); 
 ```
-
-## Instructions
-
-Open the **CustomSearch.php** file and replace **searchEngineId**, **GoogleApiKey** and **YourIP** address variables with your owns and yeah you are good to go that's it.
